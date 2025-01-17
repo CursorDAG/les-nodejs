@@ -8,3 +8,7 @@ fs.readFile('./test.txt', 'utf8', (err, data) => {
 })
 
 console.log('End of script')
+
+setImmediate(() => {
+    console.log('Immediate')
+}) // Immediate
