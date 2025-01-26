@@ -2,8 +2,10 @@ console.log(arguments.callee.toString()) // function (exports, require, module, 
 
 console.log('Bogdan')
 
-console.log(__filename) 
+console.log(__filename)
 console.log(__dirname)
 console.log(module)
 
 console.log(require)
+
+console.log(exports)
