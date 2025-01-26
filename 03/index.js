@@ -5,3 +5,5 @@ console.log('Bogdan')
 console.log(__filename) 
 console.log(__dirname)
 console.log(module)
+
+console.log(require)
