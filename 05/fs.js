@@ -8,7 +8,7 @@ fs.writeFile('./05/test.txt', 'Hello, World!', 'utf8') //запись файла
     .then(() => console.log('File written'))
     .catch((err) => console.error(err))
 
-fs.appendFile('./05/test.txt', 'Hello, World!', 'utf8') //
+fs.appendFile('./05/test.txt', 'Hello, World!', 'utf8') //добавление в файл текста в кодировке utf8 асинхронно
     .then(() => console.log('File appended'))
     .catch((err) => console.error(err))
 
