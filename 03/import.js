@@ -1,10 +1,10 @@
-const { myName, myFavoriteNumber, myHobbies } = require('./multiple')
+const { myName, myFavoriteNumber, myHobbies } = require('./multiple')  //импортируем переменные из файла multiple.js
 const {
     myName: mySecondName,
     myFriendName,
     myGreatHobbies,
-} = require('./export')
-const greeting = require('./myModules/single')
+} = require('./export')  //импортируем переменные из файла export.js 
+const greeting = require('./myModules/single')      //импортируем функцию greeting из файла single.js
 //const greeting = require('d:/code/les-nodejs/03/single.js')
 
 //importing from multiple.js
