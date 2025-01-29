@@ -1,14 +1,4 @@
-import http from 'http'
+import { URL, USERNAME, PASSWORD } from './constans.mjs'
 
-const hostname = '127.0.0.1'
-const port = 80
+console.log(`URL: ${URL} USERNAME: ${USERNAME} PASSWORD: ${PASSWORD}`)
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200
-    res.setHeader('Content-Type', 'text/plain')
-    res.end('Hello, World!\n')
-})
-
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`)
-})
