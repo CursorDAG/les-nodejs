@@ -1,5 +1,4 @@
-const URL = 'http://localhost:5000'
-const USERNAME = 'admin'
-const PASSWORD = 'admin'
+const season = 'spring'
+const temperature = 13
 
-export { URL, USERNAME, PASSWORD }
+export { season as dodo, temperature }
