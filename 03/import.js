@@ -4,7 +4,7 @@ const {
     myFriendName,
     myGreatHobbies,
 } = require('./export')
-const greeting = require('./single')
+const greeting = require('./myModules/single')
 //const greeting = require('d:/code/les-nodejs/03/single.js')
 
 //importing from multiple.js
