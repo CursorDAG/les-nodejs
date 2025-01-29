@@ -1,4 +1,4 @@
 @echo off
 git add .
-git commit -m "Автоматическое сохранение изменений"
+git commit -m "update"
 git push origin master
