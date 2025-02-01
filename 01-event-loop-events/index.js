@@ -23,7 +23,7 @@ Promise.resolve()
     .then(() => info('promise2'))
 
 //nextTick
-process.nextTick(() => info('nextTick 1')) //вызывается сразу после всех setTimeout
+process.nextTick(() => info('nextTick 1')) //вызывается сразу после всех
 
 //setImmediate
 setImmediate(() => info('setImmediate')) //вызывается после nextTick
